@@ -11,7 +11,7 @@ exports.up = function(knex, Promise) {
     table.text('title').notNullable();
     table.integer('priority').notNullable();
     table.text('description');
-    table.boolean('done').default(false).notNullable();
+    table.boolean('done').defaultTo(false).notNullable();
     table.datetime('date').notNullable();
   });
 };

@@ -16,5 +16,18 @@
     "morgan": "~1.9.0",
     "pg": "^7.4.1",
     "serve-favicon": "~2.4.5"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jontronics/todoapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jontronics/todoapp/issues"
+  },
+  "homepage": "https://github.com/Jontronics/todoapp#readme",
+  "description": ""
 }

@@ -5,7 +5,7 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       const todos = [{
         title:'Build a crud app',
-        priority: 1,
+        priority: 1
         date: new Date()
       }, {
         title:'Walk the dog',
