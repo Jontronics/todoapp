@@ -33,7 +33,7 @@ router.post('/', (req, res) => {
       .insert(todo, 'id')
       .then(ids => {
         const id = ids[0];
-        res.redirect(`/todo/${id}`);
+        res.redirect(`/todo/`);
       });
   });
 });
